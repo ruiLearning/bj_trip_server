@@ -1,0 +1,93 @@
+2025-03-29 00:36:51.894 [restartedMain] INFO  com.cow.horse.BackendApplication - Starting BackendApplication using Java 1.8.0_442 on 192.168.0.102 with PID 55468 (/Users/ban/Desktop/sj/backendProject/backend-Api/target/classes started by ban in /Users/ban/Desktop/sj/backendProject/backend-Api)
+2025-03-29 00:36:51.901 [restartedMain] INFO  com.cow.horse.BackendApplication - The following profiles are active: dev
+2025-03-29 00:36:51.984 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-29 00:36:51.985 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-29 00:36:52.718 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2025-03-29 00:36:52.720 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-03-29 00:36:52.749 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+2025-03-29 00:36:53.342 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-03-29 00:36:53.354 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-03-29 00:36:53.355 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-29 00:36:53.355 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2025-03-29 00:36:53.430 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-29 00:36:53.430 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1444 ms
+2025-03-29 00:36:53.842 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-03-29 00:36:54.075 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-03-29 00:36:54.080 [Druid-ConnectionPool-Create-734101636] INFO  com.alibaba.druid.pool.DruidAbstractDataSource - {dataSource-1} failContinuous is true
+2025-03-29 00:36:54.098 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-03-29 00:36:54.109 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-03-29 01:25:33.942 [restartedMain] INFO  com.cow.horse.BackendApplication - Starting BackendApplication using Java 1.8.0_442 on 192.168.0.102 with PID 57844 (/Users/ban/Desktop/sj/backendProject/backend-Api/target/classes started by ban in /Users/ban/Desktop/sj/backendProject/backend-Api)
+2025-03-29 01:25:33.945 [restartedMain] INFO  com.cow.horse.BackendApplication - The following profiles are active: dev
+2025-03-29 01:25:34.023 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-29 01:25:34.024 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-29 01:25:34.912 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2025-03-29 01:25:34.915 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-03-29 01:25:34.949 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
+2025-03-29 01:25:35.558 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-03-29 01:25:35.570 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-03-29 01:25:35.571 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-29 01:25:35.571 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2025-03-29 01:25:35.639 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-29 01:25:35.639 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1611 ms
+2025-03-29 01:25:36.129 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-03-29 01:25:36.355 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-03-29 01:25:36.359 [Druid-ConnectionPool-Create-1169312005] INFO  com.alibaba.druid.pool.DruidAbstractDataSource - {dataSource-1} failContinuous is true
+2025-03-29 01:25:36.381 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-03-29 01:25:36.392 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-03-29 01:37:59.799 [restartedMain] INFO  com.cow.horse.BackendApplication - Starting BackendApplication using Java 1.8.0_442 on 192.168.0.102 with PID 61630 (/Users/ban/Desktop/sj/backendProject/backend-Api/target/classes started by ban in /Users/ban/Desktop/sj/backendProject/backend-Api)
+2025-03-29 01:37:59.802 [restartedMain] INFO  com.cow.horse.BackendApplication - The following profiles are active: dev
+2025-03-29 01:37:59.864 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-29 01:37:59.865 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-29 01:38:00.759 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2025-03-29 01:38:00.762 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-03-29 01:38:00.794 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
+2025-03-29 01:38:01.402 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-03-29 01:38:01.413 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-03-29 01:38:01.414 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-29 01:38:01.414 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2025-03-29 01:38:01.479 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-29 01:38:01.479 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1613 ms
+2025-03-29 01:38:01.974 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-03-29 01:38:02.757 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-03-29 01:38:03.686 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2025-03-29 01:38:03.974 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-03-29 01:38:04.024 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-03-29 01:38:04.053 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-03-29 01:38:04.065 [restartedMain] INFO  com.cow.horse.BackendApplication - Started BackendApplication in 4.859 seconds (JVM running for 5.559)
+2025-03-29 01:38:04.068 [restartedMain] INFO  com.cow.horse.BackendApplication - =====================项目后端启动成功============================
+2025-03-29 01:38:29.327 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-03-29 01:38:29.330 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-03-29 01:38:29.336 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-03-29 01:38:36.404 [restartedMain] INFO  com.cow.horse.BackendApplication - Starting BackendApplication using Java 1.8.0_442 on 192.168.0.102 with PID 61696 (/Users/ban/Desktop/sj/backendProject/backend-Api/target/classes started by ban in /Users/ban/Desktop/sj/backendProject/backend-Api)
+2025-03-29 01:38:36.407 [restartedMain] INFO  com.cow.horse.BackendApplication - The following profiles are active: dev
+2025-03-29 01:38:36.456 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-29 01:38:36.457 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-29 01:38:37.167 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2025-03-29 01:38:37.169 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-03-29 01:38:37.197 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+2025-03-29 01:38:37.726 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-03-29 01:38:37.744 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-03-29 01:38:37.744 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-29 01:38:37.745 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2025-03-29 01:38:37.798 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-29 01:38:37.798 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1340 ms
+2025-03-29 01:38:38.163 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-03-29 01:38:38.735 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-03-29 01:38:39.550 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2025-03-29 01:38:39.799 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-03-29 01:38:39.844 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-03-29 01:38:39.873 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-03-29 01:38:39.884 [restartedMain] INFO  com.cow.horse.BackendApplication - Started BackendApplication in 3.973 seconds (JVM running for 4.632)
+2025-03-29 01:38:39.887 [restartedMain] INFO  com.cow.horse.BackendApplication - =====================项目后端启动成功============================
+2025-03-29 01:42:08.055 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-29 01:42:08.057 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-29 01:42:08.059 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-03-29 01:43:41.828 [http-nio-8080-exec-77] INFO  com.cow.horse.handle.MyMetaObjectHandler - 公共字段自动填充[update]...
+2025-03-29 01:43:41.853 [http-nio-8080-exec-77] INFO  com.cow.horse.handle.MyMetaObjectHandler - 公共字段自动填充[insert]...
+2025-03-29 01:44:40.247 [http-nio-8080-exec-91] INFO  com.cow.horse.handle.MyMetaObjectHandler - 公共字段自动填充[insert]...
+2025-03-29 01:45:45.233 [http-nio-8080-exec-27] INFO  com.cow.horse.handle.MyMetaObjectHandler - 公共字段自动填充[update]...
+2025-03-29 09:59:44.178 [http-nio-8080-exec-99] INFO  com.cow.horse.handle.MyMetaObjectHandler - 公共字段自动填充[insert]...
