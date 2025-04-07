@@ -15,8 +15,8 @@
         </div>
       </div>
       <div class="header5">
-        <img @click="toCenter" style="width:40px;height:40px;border-radius:50%" src="../assets/image/logo.png">
-        <div class="header6" @click="loginOut">
+<!--        <img @click="toCenter" style="width:40px;height:40px;border-radius:50%" src="../assets/image/logo.png">
+       --> <div class="header6" @click="loginOut">
           退出
         </div>
       </div>
@@ -121,7 +121,7 @@
   }
   .header6 {
     margin-left: 10px;
-    width: 80px;
+    width: 40px;
     height: 30px;
     border-radius: 20px;
     color: #ffffff;

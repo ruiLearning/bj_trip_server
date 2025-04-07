@@ -1,6 +1,6 @@
 const configure = {
     state:{
-        HOST: 'http://localhost:8080',  //后台访问地址根目录
+        HOST: 'http://10.149.4.59:8080',  //后台访问地址根目录
     },
     getters: {
               

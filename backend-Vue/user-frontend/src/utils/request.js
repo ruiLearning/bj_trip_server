@@ -4,7 +4,7 @@ import { Message, MessageBox } from 'element-ui'  //导入element-ui组件库
  
 // 创建axios的对象
 const instance = axios.create({
-    baseURL: "http://localhost:8080",  //配置固定域名
+    baseURL: "http://10.149.4.59:8080",  //配置固定域名
     timeout: 5000
 })
  

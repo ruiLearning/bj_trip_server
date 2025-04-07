@@ -3,13 +3,13 @@
 
   <div class="container">
 
-    <div style="width: 22%; display: flex;background-color: white; ">
+    <div style="width: 100%; display: flex;background-color: white; ">
 <!--      <div style="width: 50%; border-radius: 10px;" >-->
 <!--        <img src="../../assets/image/ling.png" width="100%" height="100%" style="overflow: hidden;">-->
 <!--      </div>-->
 
-      <div style="flex: 1;width: 50%;padding: 40px;display: flex;flex-direction: column;justify-content: center;" >
-        <div style="text-align: center; font-size: 28px; font-weight: bold; margin-bottom: 50px; color: #258611">旅游信息推荐系统</div>
+      <div style="flex: 1;width: 100%;padding: 40px;display: flex;flex-direction: column;justify-content: center;" >
+        <div style="text-align: center; font-size: 28px; font-weight: bold; margin-bottom: 50px; color: #258611">石油旅游系统</div>
         <el-form :model="form" :rules="rules" ref="formRef">
           <el-form-item prop="username" style="margin-bottom: 40px">
             <el-input prefix-icon="el-icon-user" v-model="loginAccount" placeholder="请输入登录账号"></el-input>
@@ -30,7 +30,7 @@
 
     </div>
 
-    <el-dialog title="注册" :visible.sync="dialogVisible" width="30%" :before-close="handleClose">
+    <el-dialog title="注册" :visible.sync="dialogVisible" width="100%" :before-close="handleClose">
       <div style="display: flex; flex-direction: column; gap: 20px;">
         <el-input prefix-icon="el-icon-user" v-model="loginAccount" placeholder="请输入登录账号"></el-input>
         <el-input prefix-icon="el-icon-star-off" type="password" v-model="password" placeholder="请输入用户密码"></el-input>
@@ -48,7 +48,7 @@
 
 
 <!--    忘记密码-->
-    <el-dialog title="找回密码" :visible.sync="dialogVisible1" width="30%" :before-close="handleClose">
+    <el-dialog title="找回密码" :visible.sync="dialogVisible1" width="100%" :before-close="handleClose">
       <div style="display: flex; flex-direction: column; gap: 20px;" >
         <el-input prefix-icon="el-icon-user" v-model="loginAccount" placeholder="请输入登录账号"></el-input>
         <el-input prefix-icon="el-icon-star-off" type="password" v-model="password" placeholder="请输入新密码"></el-input>

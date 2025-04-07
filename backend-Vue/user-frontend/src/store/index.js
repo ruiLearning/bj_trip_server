@@ -6,7 +6,7 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    HOST: 'http://localhost:8080',
+    HOST: 'http://10.149.4.59:8080',
   },
   getters: {
   },
